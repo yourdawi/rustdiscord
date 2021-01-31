@@ -10,6 +10,8 @@ You can also add Smart Alarm or anything else to it.
 Here are some examples:
 (PS: You need the ID from every Device, same way as for PlayerID)
 
+The Server must be Rust+ ready ofcourse.
+
 This will trigger the Smart Alarm. Remember to edit SMART_ALARM_ID
 ```javascript
 rustplus.on('message', (message) => {
