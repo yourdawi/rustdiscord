@@ -1,0 +1,15 @@
+{
+  "name": "rustdiscord",
+  "version": "1.0.0",
+  "description": "Rust+ integration for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dawi",
+  "license": "ISC",
+  "dependencies": {
+    "@liamcottle/rustplus.js": "^2.0.0",
+    "discord.js": "^12.5.1"
+  }
+}
