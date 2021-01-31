@@ -1,6 +1,7 @@
 This is a Discord Bot for the Game Rust.
 The project is created using the [rustplus.js](https://github.com/liamcottle/rustplus.js) library.
-
+You will need Node.JS
+Download and run npm install and start with node index.js
 Please edit the [config.js](https://github.com/yourdawi/rustdiscord/blob/main/config.json).
 If you dont know how to get the Server IP, Port or Player ID/Token -> Check [this](https://github.com/liamcottle/rustplus.js#pairing) out.
 
@@ -19,7 +20,7 @@ try{
     if (discordConnected) {
         if (message.broadcast) {
             if (message.broadcast.entityChanged.entityId == SMART_ALARM_ID && message.broadcast.entityChanged.payload.value){
-				const channel = client.channels.cache.get('803294892729958410');
+				const channel = client.channels.cache.get(config.DISCORD_CHANNEL_ID);
 					channel.send("Alarm at Base!");
 					rustplus.sendTeamMessage('[BOT]Alarm at Base!');
             } 
