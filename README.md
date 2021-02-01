@@ -16,6 +16,10 @@ Here are some examples:
 The Server must be Rust+ ready ofcourse.
 
 This will trigger the Smart Alarm. Remember to edit SMART_ALARM_ID
+
+If you want to mention a Role you have to add this to the text:
+<@&ROLE_ID>
+
 ```javascript
 rustplus.on('message', (message) => {
 try{
