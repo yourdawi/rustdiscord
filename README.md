@@ -1,7 +1,8 @@
 This is a Discord Bot for the Game Rust.
 The project is created using the [rustplus.js](https://github.com/liamcottle/rustplus.js) library.
 You will need Node.JS
-Download and run npm install and start with node index.js
+Installation:
+npm i rustdiscord
 
 Please edit the [config.js](https://github.com/yourdawi/rustdiscord/blob/main/config.json).
 
