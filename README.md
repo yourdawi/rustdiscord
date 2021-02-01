@@ -2,7 +2,9 @@ This is a Discord Bot for the Game Rust.
 The project is created using the [rustplus.js](https://github.com/liamcottle/rustplus.js) library.
 You will need Node.JS
 Download and run npm install and start with node index.js
+
 Please edit the [config.js](https://github.com/yourdawi/rustdiscord/blob/main/config.json).
+
 If you dont know how to get the Server IP, Port or Player ID/Token -> Check [this](https://github.com/liamcottle/rustplus.js#pairing) out.
 
 Prebuild the Discord Bot will Sync the Ingame Teamchat and the Discord Channel Chat.
