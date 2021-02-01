@@ -72,3 +72,14 @@ try{
 });
 
 ```
+
+Issues:
+If your smart alarm is not working add this
+
+```javascript
+rustplus.getEntityInfo(ID, () => {
+   console.log("[Rust+] Successfully requested information about entites.");
+});
+ ```
+ 
+ to the rustplus connected event.
