@@ -1,3 +1,5 @@
+**Not maintained**
+
 This is a Discord Bot for the Game Rust.
 
 The project is created using the [rustplus.js](https://github.com/liamcottle/rustplus.js) library.
